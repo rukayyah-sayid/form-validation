@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+        </style>
+        <title>
+            Registeration 
+        </title>
+    </head>
+    <body>
+        <script text="javascript" src="formValidation.js"></script>
+        <link rel="stylesheet" href="formValidation.css">
+        <div class="container1">
+            <div class="heading">
+                <h1>Sign Up
+            </div>
+            <div id="subdiv">
+                Create an account.Its free and only takes a minute.
+            </div>
+            <form action="" onsubmit="return testing()" >
+                <label for="fname"></label>
+                <input name="fname" type="text" class="" id="fname" placeholder="Full Name">
+                <div class="msg"></div>
+
+                <label for="email"></label>
+                <input name="email" type="email" id="email" class="" placeholder="Email Address">
+                <div class="msg1"></div>
+
+                <label for="password"></label>
+                <input name="password" type="password" class="" id="password"  placeholder="Password"><br>
+                <div class="msg2"></div>
+
+                <label for="cpassword"></label>
+                <input name="cpasswordd" type="password" id="cpassword" class="" placeholder="Confirm Password"><br>
+                <div class="msg3"></div>
+
+                <label for="dob"></label>
+                <input type="date" id="date">
+
+                <label for="gender"></label>
+                <select name="" id="gender">
+                    <option value="#">Gender</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="rather not say">rather not say</option>
+                </select><br>
+
+                <label for="terms" id="terms">
+                    <input type="checkbox" id="terms">
+                    I agree with the <a href="#">Terms of Use</a> and <a href="#">Privacy policy</a>
+                </label><br>
+
+                <label for="register"></label>
+                <input type="submit" id="register" placeholder="register now">
+            </form>
+        </div>
+    </body>
+</html>

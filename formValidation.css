@@ -1,0 +1,142 @@
+.container1 hr{
+  width: 170px;
+  color: black;
+}
+body{
+  background-color: rgb(96, 96, 122);
+}
+.container1{
+  height: 570px;
+  width: 550px;
+  background-color: rgb(243, 235, 235);
+  border-color: black;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.heading{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 10px;
+  font-size: 20px;
+}
+#subdiv{
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+#fname{
+  margin-top: 20px;
+  margin-left: 60px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 238px;
+  }
+#lname{
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#email{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 238px;
+}
+#password{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 238px;
+}
+#cpassword{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 238px;
+}
+#date{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: gray;
+}
+#gender{
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 130px;
+  color: gray;
+}
+#terms{
+  text-align: center;
+  padding-left: 60px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+#register{
+  margin-left: 60px;
+  margin-top: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 185px;
+  padding-right: 185px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  box-shadow: none;
+  font-size: 15px;
+  border-color: green;
+}
+#register:hover{
+  cursor: pointer;
+  background-color: rgb(7, 105, 7);
+}
+.msg{
+  color: red;
+  margin-left: 60px;
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.msg1{
+  color: red;
+  margin-left: 60px;
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.msg2{
+  color: red;
+  margin-left: 60px;
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.msg3{
+  color: red;
+  margin-left: 60px;
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.invalid{
+  border: red 1px solid;
+}
